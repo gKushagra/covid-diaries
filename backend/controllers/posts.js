@@ -5,11 +5,11 @@ exports.get_all_posts = (req, res, next) => {
   Post.find()
     .exec()
     .then((docs) => {
-      const response = {
-        count: docs.length,
-        posts: docs,
-      };
-      res.status(200).json(response);
+      // const response = {
+      //   count: docs.length,
+      //   posts: docs,
+      // };
+      res.status(200).json(docs);
     })
     .catch((err) => {
       res.status(500).json({
