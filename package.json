@@ -1,0 +1,31 @@
+{
+  "name": "covid-diaries",
+  "version": "1.0.0",
+  "description": "Share stories during lockdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gKushagra/covid-diaries.git"
+  },
+  "keywords": [
+    "covid",
+    "covid-posts",
+    "lockdown"
+  ],
+  "author": "Kushagra Gupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gKushagra/covid-diaries/issues"
+  },
+  "homepage": "https://github.com/gKushagra/covid-diaries#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
